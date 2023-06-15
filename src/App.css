@@ -11,3 +11,50 @@
   width: 800px;
 
 }
+
+
+
+
+
+
+
+
+.post-btn {
+  margin-right: 0.5rem;
+}
+
+.post-enter {
+  transform: translateX(-150px);
+}
+.post-enter-active {
+  transform: translateX(0);
+  transition: all 500ms ease-in;
+}
+.post-exit {
+  opacity: 1;
+}
+.post-exit-active {
+  transform: translateX(-150px);
+  transition: all 500ms ease-in;
+}
+
+
+
+
+
+.pages__buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 1px solid teal;
+  cursor: pointer;
+}
+.page__btn{
+margin: 5px;
+}
+.page__current{
+  border: 2px solid orange;
+  font-weight: bold;
+}

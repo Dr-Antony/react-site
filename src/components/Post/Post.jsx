@@ -6,7 +6,7 @@ const {id,title,body} = props.post;
     return (
         <div className={style.post__container}>
             <div className={style.post__content}>
-                <strong>{number}.{title}</strong>
+                <strong>{props.post.id}.{title}</strong>
                 <div>{body}</div>
             </div>
             <div className={style.post__btn}>
