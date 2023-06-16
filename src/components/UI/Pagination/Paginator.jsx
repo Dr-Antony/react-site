@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { getPagesArray } from '../../../utils/pages';
 import './../../../App.css'
 import MyButton from '../Button/MyButton';

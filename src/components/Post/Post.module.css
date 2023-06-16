@@ -1,4 +1,4 @@
-.post__container{
+.post__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,7 +6,12 @@
     margin-top: 15px;
     border: 2px solid teal;
 }
-.post__content{}
-style.post__btn{
 
+.post__content {
+    flex-basis: 70%;
+}
+
+.post__btn {
+    display: flex;
+    
 }

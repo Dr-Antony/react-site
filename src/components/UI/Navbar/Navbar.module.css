@@ -1,0 +1,24 @@
+.App__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid teal;
+    padding: 10px;
+    margin-top: 10px;
+    background: lightgray;
+}
+
+.App__nav_item {
+    margin: 5px;
+
+}
+
+.App__nav_item a {
+    padding: 5px 15px;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+    border: 1px solid teal
+}
+.active{
+    background: red;
+}

@@ -1,0 +1,19 @@
+.comment__container {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    animation-name: comment ;
+    animation-duration: 1s ;
+    transition: all 1s;
+}
+
+@keyframes comment {
+    0% {
+        opacity: 0;
+        transform: translateX(100px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}
